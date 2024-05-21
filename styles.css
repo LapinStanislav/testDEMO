@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.video-container {
+    max-width: 80%; 
+    text-align: center;
+}
+
+video {
+    max-width: 100%; 
+}
+
+main {
+    padding: 20px;
+}
+footer {
+    
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0; 
+}
+
+.logo img {
+    width: 100px;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff8533;
+    transition: background-color 0.3s;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+li {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input, label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    display: inline;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+#errorMessages {
+    color: red;
+    margin-top: 10px;
+}
+
+
+iframe {
+  height: 400px;
+  width: 100%;
+}
+
+h1 {
+    text-align: center;
+  }
+  
+  .filter {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 5px;
+  }
+  
+  .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    width: 200px; /* Ширина карточки пластинки */
+    margin: 10px; /* Расстояние между карточками */
+}
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    margin-top: 10px;
+    text-align: center;
+  }
